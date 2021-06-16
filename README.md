@@ -5,8 +5,9 @@ WebLicht. The server pipelines are defined in `weblicht-pipelines.nix`.
 
 ## Building a Docker image
 
-The Docker images tarball can be built using the following Nix command. A
-symlink `result` will be created, which points to the Docker image:
+The Docker images tarball can be built using the following
+[Nix](https://nixos.org/download.html#nix-quick-install) command on a Linux
+machine. A symlink `result` will be created, which points to the Docker image:
 
 ``` shell
 $ nix-build \
